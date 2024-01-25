@@ -28,5 +28,23 @@ namespace Edn2023B
             raspodela nova = new raspodela();
             nova.Show();
         }
+
+        private void predmetiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik novi = new  Sifarnik("predmet");
+            novi.Show();
+        }
+
+        private void skGodineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik novi = new Sifarnik("skolska_godina");
+            novi.ShowDialog();
+        }
+
+        private void smerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik novi = new Sifarnik("smer");
+            novi.Show();
+        }
     }
 }
