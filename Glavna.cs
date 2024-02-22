@@ -46,5 +46,11 @@ namespace Edn2023B
             Sifarnik novi = new Sifarnik("smer");
             novi.Show();
         }
+
+        private void upisnicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Upisnica forma = new Upisnica();
+            forma.Show();
+        }
     }
 }

@@ -74,6 +74,12 @@
     <Compile Include="Sifarnik.Designer.cs">
       <DependentUpon>Sifarnik.cs</DependentUpon>
     </Compile>
+    <Compile Include="Upisnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upisnica.Designer.cs">
+      <DependentUpon>Upisnica.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Glavna.resx">
       <DependentUpon>Glavna.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sifarnik.resx">
       <DependentUpon>Sifarnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upisnica.resx">
+      <DependentUpon>Upisnica.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
